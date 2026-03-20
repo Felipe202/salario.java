@@ -26,7 +26,7 @@ public class Desenvolvedor extends Funcionario {
 
     @Override
 
-    public double Funcionariocalcularsalario() {
+    public double calcularsalario() {
         this.setsalariobase(getsalariobase() + (horaExtras * valorHorasExtra));
         return this.getsalariobase();
     }
