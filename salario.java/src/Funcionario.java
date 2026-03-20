@@ -23,13 +23,14 @@ public class Funcionario {
         this.salariobase = salariobase;
     }
 
-    public double calcularsalario() {
+    public double Funcionariocalcularsalario() {
         return salariobase;
     }
 
     public void exibirFuncionario() {
         System.out.println("Funcionario: " + this.nome);
-        System.out.printf("Salario Final: %1f" + this.getsalariobase());
+        System.out.println("Salario Final: " + this.Funcionariocalcularsalario());
     }
+
 }
     
